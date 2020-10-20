@@ -5,9 +5,11 @@ body {
 
 header {
     width: 100%;
-    display: table;
-    background-color: #002e5b;
-    margin-bottom: 35px
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
 }
 
 .container {
@@ -129,7 +131,7 @@ input[type=checkbox], label {
         position: absolute;
         right: 0;
         top: 64px;
-        background-color: #002e5b;
+        background-color: #303030;
         padding: 0;
         z-index: 99
     }

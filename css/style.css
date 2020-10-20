@@ -1,7 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 main {
     height: 2000px;
 }
 
-.fix {
-    display: fixed;
+.content {
+    width: 1140px;
+    margin: 0 auto;
 }
+
+/*--------------------------top_string------------------------------*/
+
+.header_2 {
+    background-color: #e6e6e6;
+}
+
+.top_string {
+    display: flex;
+    height: 70px;
+}
+
+.top_string div {
+    width: 20%;
+    border-right: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_string div:nth-last-child(1) {
+    border-right: none;
+}
+
+.top_string div:nth-child(2) {
+    width: 40%;
+}
+
+.top_string p {
+    text-align: center;
+    line-height: 0.4;
+    font-size: 1.2em;
+}
+
+.top_string a {
+    color: black;
+    text-decoration: none;
+}
+
+.top_string a:hover {
+    font-size: 1.1em;
+    transition: 1s;
+}
+
+
+
+/*
+.header_2 {
+    background-color: #e6e6e6;
+}
+
+.top_string {
+    display: flex;
+}
+
+.top_string div {
+    width: 20%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_string div:nth-child(2) {
+    width: 40%;
+}
+
+.top_string p {
+    line-height: 0;
+}
+
+.top_string p a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    line-height: 0;
+}
+
+*/
