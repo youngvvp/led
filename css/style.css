@@ -59,7 +59,7 @@ header {
 .top_string p {
     text-align: center;
     line-height: 0.2;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .top_string a {
@@ -97,11 +97,11 @@ header {
 }
 
 .block_1_content div:nth-child(1) {
-    width: 55%;
+    width: 627px;
 }
 
 .block_1_content div:nth-child(2) {
-    width: 45%;
+    width: 513px;
 }
 
 .block_1_content p {
@@ -172,5 +172,61 @@ header {
 
 .dont_find span {
     color: blue;
+}
+
+/*----------------------------subscribe--------------------------------*/
+
+.subscribe {
+    margin: 70px 0;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    height: 400px;
+    display: flex;
+}
+
+.subscribe div:nth-child(1) {
+    width: 570px;
+}
+
+.subscribe img {
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.subscribe__description {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 60px;
+}
+
+.subscribe__description p:nth-child(1) {
+    font-size: 2em;
+    line-height: 0;
+}
+
+.subscribe input[type="email"] {
+    width: 280px;
+    height: 52px;
+    border-radius: 7px;
+    padding-left: 15px;
+    margin-right: 15px;
+    border: 1px solid black;
+    font-size: 1.2em;
+}
+
+.subscribe input[type='submit'] {
+    width: 170px;
+    height: 54px;
+    border: 0;
+    background-color: #ff7300;
+    border-radius: 7px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.subscribe__description p:last-child {
+    font-size: 0.8em;
 }
 
