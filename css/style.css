@@ -37,15 +37,22 @@ header {
     align-items: center;
 }
 
+.top_string img {
+    height: 65px;
+    border-radius: 8px;
+}
+
 .top_string div:nth-last-child(1) {
     border-right: none;
 }
 
-.top_string div:nth-child(2) {
-    width: 40%;
+.top_string div:nth-child(1) {
+    border-right: none;
+    box-shadow: 0 0 10px #666666;
 }
 
-.top_string div:nth-child(3) a {
+.top_string div:nth-child(3) {
+    width: 40%;
     color: #ff0000;
 }
 
@@ -136,5 +143,34 @@ header {
     font-size: 0.8em;
     margin-top: 10px;
     line-height: 1;
+}
+
+/*---------------------------dont find-------------------------------*/
+
+.dont_find {
+    height: 470px;
+    border: 0;
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+}
+
+.dont_find p {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dont_find p:nth-child(1) {
+    font-size: 3em;
+    margin: 100px auto 40px auto
+}
+
+.dont_find p:nth-child(2) {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.dont_find span {
+    color: blue;
 }
 
