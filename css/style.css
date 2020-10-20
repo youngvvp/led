@@ -11,7 +11,7 @@ main {
     margin: 0 auto;
 }
 
-/*--------------------------top_string------------------------------*/
+/*---------------------------top_string-------------------------------*/
 
 header {
     position: fixed;
@@ -64,3 +64,77 @@ header {
     font-size: 1.07em;
     transition: 1.5s;
 }
+
+/*---------------------------first_block-------------------------------*/
+
+.first_block {
+    margin-top: 65px;
+    display: flex;
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/background_first.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first_block img {
+    width: 100%;
+}
+
+.block_1_content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: white;
+}
+
+.block_1_content div:nth-child(1) {
+    width: 55%;
+}
+
+.block_1_content div:nth-child(2) {
+    width: 45%;
+}
+
+.block_1_content p {
+    font-size: 1.6em;
+    color: #aeaeae;
+}
+
+.first_block input[type="tel"] {
+    width: 230px;
+    height: 52px;
+    border-radius: 7px;
+    padding-left: 15px;
+    margin-right: 20px;
+    border: 0;
+    font-size: 1.2em;
+}
+
+.first_block input[type='submit'] {
+    width: 300px;
+    height: 52px;
+    border: 0;
+    background-color: #ffea00;
+    border-radius: 7px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.first_block p:nth-child(1) {
+    font-size: 3.3em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.first_block form {
+    margin-top: 50px;
+}
+
+.first_block form p {
+    font-size: 0.8em;
+    margin-top: 10px;
+    line-height: 1;
+}
+
