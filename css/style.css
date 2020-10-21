@@ -13,15 +13,17 @@ main {
 
 /*---------------------------top_string-------------------------------*/
 
+.empty {
+    height: 65px;
+    background-color: #e6e6e6;
+}
+
 header {
     position: fixed;
-    z-index: 999;
 }
 
 .header_2 {
     background-color: #e6e6e6;
-    position: relative;
-    top: 65px;
 }
 
 .top_string {
@@ -52,7 +54,7 @@ header {
 }
 
 .top_string div:nth-child(3) {
-    width: 40%;
+    width: 430px;
     color: #ff0000;
 }
 
@@ -75,7 +77,6 @@ header {
 /*---------------------------first_block-------------------------------*/
 
 .first_block {
-    margin-top: 65px;
     display: flex;
     height: 700px;
     width: 100%;
@@ -149,7 +150,6 @@ header {
 
 .dont_find {
     height: 470px;
-    border: 0;
     background-color: #f5f5f5;
     border: 1px solid #f5f5f5;
 }
@@ -184,7 +184,7 @@ header {
     display: flex;
 }
 
-.subscribe div:nth-child(1) {
+.subscribe_img {
     width: 570px;
 }
 
@@ -203,7 +203,7 @@ header {
 
 .subscribe__description p:nth-child(1) {
     font-size: 2em;
-    line-height: 0;
+
 }
 
 .subscribe input[type="email"] {
