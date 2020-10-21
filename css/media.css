@@ -55,4 +55,20 @@
    .subscribe form input {
        margin-top: 10px;
    }
+
+   .subscribe__description {
+       margin: 20px;
+   }
+
+   .subscribe {
+       height: auto;
+   }
+}
+
+
+@media only screen and (max-width: 967px) {
+    .empty {
+        height: 85px;
+        background-color: #e6e6e6;
+    }
 }
