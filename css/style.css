@@ -230,3 +230,42 @@ header {
     font-size: 0.8em;
 }
 
+/*----------------------------delivery--------------------------------*/
+
+.delivery {
+    padding: 50px 0;
+}
+
+.delivery h2 {
+    text-align: center;
+}
+
+.delivery p {
+    width: 80%;
+    margin: 30px auto;
+    font-size: 1.2em;
+    color: #666666;
+}
+
+.delivery_part_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.delivery_part_2 img {
+    width: 40%;
+    margin: 0 30px;
+}
+
+.deliv_items_1 {
+    width: 25%;
+    text-align: right;
+}
+
+.deliv_items_2 {
+    width: 25%;
+}
