@@ -269,3 +269,50 @@ header {
 .deliv_items_2 {
     width: 25%;
 }
+
+
+/*---------------------------contacts-------------------------------*/
+
+.contacts {
+    background-color: #303030;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.icons img {
+    width: 40px;
+}
+
+.block__contacts {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.2em;
+}
+
+.block__contacts a {
+    color: white;
+}
+
+.contact__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__item span {
+    margin-bottom: 10px;
+}
+
+.contact__item a {
+    margin-top: 10px;
+}
+
+.contact__item .logo {
+    width: 200px;
+    border-radius: 3px;
+}
+
+.icon__small {
+    display: inline;
+    width: 30px;
+}

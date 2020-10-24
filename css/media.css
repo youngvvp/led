@@ -106,6 +106,23 @@
     .delivery_part_2 span {
         text-align: left;
     }
+
+    /*----------------------------delivery--------------------------------*/
+
+    .block__contacts {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .block__contacts span {
+        margin: 10px;
+    }
+
+    .block__contacts .icons {
+        margin-top: 20px;
+    }
 }
 
 
