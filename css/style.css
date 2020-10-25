@@ -11,10 +11,14 @@ main {
     margin: 0 auto;
 }
 
+.logo_header {
+    height: 60px;
+}
+
 /*---------------------------top_string-------------------------------*/
 
 .empty {
-    height: 65px;
+    height: 60px;
     background-color: #e6e6e6;
 }
 

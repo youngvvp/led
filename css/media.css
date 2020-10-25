@@ -17,7 +17,7 @@
 
    .block_1_content div p:nth-child(1) {
        margin-top: 70px;
-       font-size: 1.5em;
+       font-size: 2em;
    }
 
    .block_1_content div p {
@@ -107,7 +107,7 @@
         text-align: left;
     }
 
-    /*----------------------------delivery--------------------------------*/
+    /*----------------------------contacts--------------------------------*/
 
     .block__contacts {
         flex-direction: column;
@@ -124,7 +124,7 @@
 
 @media only screen and (max-width: 967px) {
     .empty {
-        height: 65px;
+        height: 60px;
         background-color: #e6e6e6;
     }
 }
