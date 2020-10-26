@@ -155,16 +155,17 @@ header {
 .technologies h2 {
     font-size: 2.5em;
     text-align: center;
+    margin-top: 50px;
 }
 
 .tech__item {
     display: flex;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 .tech__item div {
     font-size: 1.6em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .tech__item img {
@@ -173,7 +174,7 @@ header {
 
 .tech__item ul li {
     font-size: 1.1em;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 /*---------------------------dont find-------------------------------*/

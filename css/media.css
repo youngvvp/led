@@ -17,7 +17,7 @@
 
    .block_1_content div p:nth-child(1) {
        margin-top: 70px;
-       font-size: 2em;
+       font-size: 2.5em;
    }
 
    .block_1_content div p {
@@ -46,6 +46,10 @@
 .tech__item {
     flex-direction: column;
     align-items: center;
+}
+
+.tech__item:nth-child(even) {
+    flex-direction: column-reverse;
 }
 
 .tech__item img {
