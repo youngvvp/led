@@ -41,6 +41,17 @@
        margin-top: 10px;
    }
 
+/*-------------------------technologies-----------------------------*/
+
+.tech__item {
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech__item img {
+    width: 90%;
+}
+
 /*---------------------------dont find-------------------------------*/
 
    .dont_find {
