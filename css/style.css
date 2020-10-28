@@ -125,6 +125,39 @@ header {
     margin-bottom: 10px;
 }
 
+/*---------------------------primenenie-------------------------------*/
+
+.primenenie {
+    margin-top: 50px;
+}
+
+.primenenie h2 {
+    font-size: 2.5em;
+    max-width: 100%;
+    text-align: center;
+}
+
+.primenenie .items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.primenenie .item {
+    width: 350px;
+    margin: 15px;
+}
+
+.primenenie .item img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.primenenie .item div {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.3em;
+}
+
 /*---------------------------partners-------------------------------*/
 
 .partners {
@@ -136,7 +169,7 @@ header {
 
 .partners p {
     max-width: 800px;
-    text-align: center;
+    margin: 30px 20px;
 }
 
 .partners p:nth-child(1) {
