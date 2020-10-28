@@ -140,11 +140,13 @@ header {
 .primenenie .items {
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid red;
 }
 
 .primenenie .item {
-    width: 350px;
+    max-width: 350px;
     margin: 15px;
+    border: 1px solid blue;
 }
 
 .primenenie .item img {
