@@ -63,13 +63,13 @@
     align-items: center;
 }
 
+.primemenie .item {
+    width: 90%;
+}
+
 .primenenie h2 {
     margin-left: 5px;
     margin-right: 5px;
-}
-
-.primenenie img {
-    width: 90%;
 }
 
 /*-----------------------------partners-------------------------------*/
