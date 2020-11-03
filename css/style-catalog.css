@@ -31,7 +31,6 @@
 
 .params span {
     font-size: 1.2em;
-    
 }
 
 .params span:nth-child(1) {
@@ -66,4 +65,39 @@
 
 .item__type {
     font-size: 0.9em;
+}
+
+
+
+/*-----------------------------@media----------------------------------*/
+
+@media (max-width: 700px) {
+
+    .catalog__item {
+        width: 170px;
+        height: 250px;
+    }
+
+    .item__title {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+
+    .item__type {
+        font-size: 0.8em;
+    }
+
+    .price span {
+        font-size: 1.1em;
+    }
+
+    .params {
+        margin-bottom: 5px;
+        font-size: 0.8em;
+    }
+
+    .params span {
+        font-size: 1em;
+    }
+
 }
