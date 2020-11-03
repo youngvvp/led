@@ -2,6 +2,17 @@
     text-align: center;
 }
 
+.catalog h2 {
+    background-color: green;
+    color: white;
+    text-align: center;  
+}
+
+.catalog__item .content {
+    display: flex;
+    flex-direction: column;
+}
+
 .catalog__items {
     display: flex;
     flex-wrap: wrap;
@@ -65,39 +76,4 @@
 
 .item__type {
     font-size: 0.9em;
-}
-
-
-
-/*-----------------------------@media----------------------------------*/
-
-@media (max-width: 700px) {
-
-    .catalog__item {
-        width: 170px;
-        height: 250px;
-    }
-
-    .item__title {
-        font-size: 1em;
-        margin-bottom: 5px;
-    }
-
-    .item__type {
-        font-size: 0.8em;
-    }
-
-    .price span {
-        font-size: 1.1em;
-    }
-
-    .params {
-        margin-bottom: 5px;
-        font-size: 0.8em;
-    }
-
-    .params span {
-        font-size: 1em;
-    }
-
 }
